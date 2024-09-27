@@ -86,7 +86,11 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Encryption Key
+    | Encryption Key'providers' => [
+
+    \Torann\GeoIP\GeoIPServiceProvider::class,
+
+]
     |--------------------------------------------------------------------------
     |
     | This key is utilized by Laravel's encryption services and should be set

@@ -16,6 +16,8 @@
         </style>
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-        <p>Here is a message that this site can be loaded</p>
+        <div class="flex-1 bg-indigo-200">
+            <p>Here is a message showing that this site can be loaded</p>
+        </div>        
     </body>
 </html>

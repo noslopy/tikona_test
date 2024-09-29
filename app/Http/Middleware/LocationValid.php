@@ -39,7 +39,7 @@ class LocationValid
         }
 
         if (in_array($location->state, $restricted_states)) {
-            return response('This page cannot be found', 404, []);
+            return abort(404, "Site not available in $location->state_name");
         }
         return $next($request);
     }

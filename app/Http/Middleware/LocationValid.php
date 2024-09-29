@@ -34,6 +34,7 @@ class LocationValid
         foreach($bots as $bot) {
             if(stripos($current_agent,$bot)) {
                 $restricted_states = [];
+                break;
             }
         }
 
